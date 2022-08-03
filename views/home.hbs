@@ -36,5 +36,20 @@
             {{/if}}           
         {{/each}}
     </ul>
+    <h3>Product List</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Price</th>
+        </tr>
+        {{#each content}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{color}}</td>
+                <td>{{price}}</td>
+            </tr>
+        {{/each}}
+    </table>
 </body>
 </html>
